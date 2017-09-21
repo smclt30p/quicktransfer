@@ -1,12 +1,5 @@
-#     ______  _____  ___  ______  ______  _______  __
-#    / __/ / / / _ \/ _ \/ __/  |/  / _ |/ ___/\ \/ /
-#   _\ \/ /_/ / ___/ , _/ _// /|_/ / __ / /__   \  /
-#  /___/\____/_/  /_/|_/___/_/  /_/_/ |_\___/   /_/.org
 #
-#                 Software Supremacy
-#                 www.supremacy.org
-#
-# Copyright (c) 2017 Supremacy Software
+# Copyright (c) 2017 Ognjen Galić
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
