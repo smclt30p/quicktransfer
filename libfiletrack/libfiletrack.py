@@ -170,6 +170,9 @@ class FileTrack:
         self._write_events_to_disk()
         self._write_index_to_disk()
 
+    def get_history(self) -> List[Event]:
+        return self._read_events_from_disk()
+
     def _walk_tree(self, path: str) -> List[File]:
         files: List[File] = []
         for file in os.walk(path):
@@ -269,8 +272,3 @@ class FileTrack:
 
         events_file.write("EOF\n")
         events_file.close()
-
-        pass
-
-    def get_history(self) -> List[Event]:
-        return self._read_events_from_disk()
